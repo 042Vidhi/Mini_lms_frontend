@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Learning Management System (LMS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to mini Learning Management System (LMS)! This platform is designed to streamline the process of managing and delivering educational content. Whether you are an educator, student, this LMS offers a range of features to enhance the learning experience.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js:** The user interface is developed using React.js, providing a responsive and interactive experience for users.
+  
+- **Redux Toolkit:** State management is handled by Redux, used in course management and user authentication.
+  
+- **Tailwind CSS:** Tailwind CSS is used for styling, ensuring a clean and consistent design across the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React Router:** React Router is used for routing, allowing for dynamic routing and navigation.
 
-### `npm test`
+- **Material UI:** Material UI is used for styling, ensuring a clean and consistent design across the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+- **Django:** The backend is powered by Django, a high-level Python web framework known for its simplicity and reliability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Django Rest Framework (DRF):** DRF is utilized to build a robust RESTful API, allowing seamless communication between the frontend and backend.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **SQLite:** As a default, lightweight database for development.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Authentication and Authorization
 
-### `npm run eject`
+- **Firebase Authentication:** Firebase Authentication is used for secure user authentication, providing a scalable and reliable solution.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. User Roles
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Our LMS supports different user roles, including:
 
-## Learn More
+- **Instructor:** Instructors can create and manage courses
+  
+- **Student:** Students can enroll in courses, access learning materials, Star courses 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Course Management
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Create Courses:** Instructors can easily create and customize courses, including adding lecture pdf, vidoes and multimedia content.
 
-### Code Splitting
+- **Enrollment:** Students can enroll in any course and access the course materials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3. Planner 
 
-### Analyzing the Bundle Size
+- **Planner:** Students can plan their study schedule by adding tasks and events to the planner.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4. Shorts
 
-### Making a Progressive Web App
+- **Shorts:** Students can view short educational videos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 5. #3d Learning
 
-### Advanced Configuration
+- **3d Learning:** Added a threejs model to the course page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screenshots
 
-### Deployment
+![Home](src/screenshots/home.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Course](src/screenshots/allcourses.png)
 
-### `npm run build` fails to minify
+![Course](src/screenshots/mycourse.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Course](src/screenshots/coursecontent1.png)
+
+![Course](src/screenshots/coursecontent2.png)
+
+![Profile](src/screenshots/profile.png)
+
+![Planner](src/screenshots/planner.png)
+
+![Shorts](src/screenshots/shorts.png)
+
+![3d Learning](src/screenshots/3d_learning.png)
+
+![Login](src/screenshots/login.png)
+
+![Register](src/screenshots/register.png)
+
+![Course Creation api](src/screenshots/backend.png)
+*Fig: Course Creation API*
+
+![Menu](src/screenshots/menu.png)
+
+![Menu2](src/screenshots/profilemenu.png)
+
+
