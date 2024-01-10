@@ -4,6 +4,12 @@
 
 Welcome to mini Learning Management System (LMS)! This platform is designed to streamline the process of managing and delivering educational content. Whether you are an educator, student, this LMS offers a range of features to enhance the learning experience.
 
+### Codebase
+-**Frontend:**
+ (https://github.com/042Vidhi/Mini_lms_frontend)
+-**Backend:**
+[url](https://github.com/042Vidhi/Mini_lms_backend)
+
 ## Technologies Used
 
 ### Frontend
