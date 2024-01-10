@@ -6,9 +6,10 @@ Welcome to mini Learning Management System (LMS)! This platform is designed to s
 
 ### Codebase
 -**Frontend:**
- (https://github.com/042Vidhi/Mini_lms_frontend)
+ (https://github.com/042Vidhi/Mini_lms_frontend).
+
 -**Backend:**
-[url](https://github.com/042Vidhi/Mini_lms_backend)
+(https://github.com/042Vidhi/Mini_lms_backend).
 
 ## Technologies Used
 
